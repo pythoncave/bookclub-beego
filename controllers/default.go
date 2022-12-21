@@ -14,6 +14,6 @@ func (c *MainController) Get() {
 	c.TplName = "index.tpl"
 }
 
-func (c *MainController) Hi() {
-	c.TplName = "hi.tpl"
+func (c *MainController) About() {
+	c.TplName = "about.tpl"
 }
